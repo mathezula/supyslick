@@ -32,10 +32,10 @@ function txt2html($txt) {
   $txt = htmlentities($txt);
 
   //We need some HTML entities back!
-  $txt = str_replace('"','&quot;',$txt);
-  $txt = str_replace('<','&lt;',$txt);
-  $txt = str_replace('>','&gt;',$txt);
-  $txt = str_replace('&','&amp;',$txt);
+#  $txt = str_replace('"','&quot;',$txt);
+#  $txt = str_replace('<','&lt;',$txt);
+#  $txt = str_replace('>','&gt;',$txt);
+#  $txt = str_replace('&','&amp;',$txt);
 
   //Ajdusts links - anything starting with HTTP opens in a new window
   $txt = stri_replace("<a href=\"http://","<a target=\"_blank\" href=\"http://",$txt);
