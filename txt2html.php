@@ -32,10 +32,10 @@ function txt2html($txt) {
   $txt = htmlentities($txt);
 
   //We need some HTML entities back!
-  $txt = str_replace('&quot;','"',$txt);
-  $txt = str_replace('&lt;','<',$txt);
-  $txt = str_replace('&gt;','>',$txt);
-  $txt = str_replace('&amp;','&',$txt);
+  $txt = str_replace('"','&quot;',$txt);
+  $txt = str_replace('<','&lt;',$txt);
+  $txt = str_replace('>','&gt;',$txt);
+  $txt = str_replace('&','&amp;',$txt);
 
   //Ajdusts links - anything starting with HTTP opens in a new window
   $txt = stri_replace("<a href=\"http://","<a target=\"_blank\" href=\"http://",$txt);
@@ -43,7 +43,7 @@ function txt2html($txt) {
 
   //Basic formatting
   $eol = ( strpos($txt,"\r") === FALSE ) ? "\n" : "\r\n";
-  $html = '<p>'.str_replace("$eol$eol","</p><p>",$txt).'</p>';
+  $html = '<p>'.str_replace("$eol","</p><p>",$txt).'</p>';
   $html = str_replace("$eol","<br />\n",$html);
   $html = str_replace("</p>","</p>\n\n",$html);
   $html = str_replace("<p></p>","<p>&nbsp;</p>",$html);
