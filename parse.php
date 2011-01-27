@@ -64,18 +64,12 @@ class HtmlLogRenderer implements ILogRenderer
 		<!DOCTYPE html>
 		<html>
 			<head>
-				<title>Example HTML Output</title>
+				<title>SupySlick Log Viewer</title>
 			</head>
-			<style>
-				p {margin:0; padding:0;}
-				.actionText {color:red;}
-				.meText {color:purple;}
-				.nick {color:green;}
-				.sayText {color:gray;}
-				.time {font-size:0.8em;}
-			</style>
+			<link rel="stylesheet" type="text/css" href="css/view.css"> 			
+
 			<body>
-			<p>Begin...</p>
+			<p>Viewing log...</p>
 		<?php
 	}
 	
@@ -113,7 +107,7 @@ class HtmlLogRenderer implements ILogRenderer
 	public function end()
 	{
 		?>
-			<p>End...</p>
+			<p><a href="javascript:history.go(-1)">[return]</a></p>
 			</body>
 		</html>
 		<?php
