@@ -1,0 +1,38 @@
+2011-01-26T10:55:14  <mathezula> damn, another quiet day
+2011-01-26T14:48:36  <mathezula> timestamp fixed
+2011-01-26T14:55:30  *** Zangbot changes topic to "dsdfdf"
+2011-01-26T14:56:11  *** Zangbot changes topic to "Quality Linux Technical Support // Phone: 4-1337-68586 / (413)-376-8586 // channel rules: http://slackhappy.org/channel-rules // contact: http://slackhappy.org/contact // slackware mirror: http://mirror.slackhappy.org // Community Wiki: http://community.slackhappy.org // Channel is publicly logged"
+2011-01-26T14:57:14  *** Zangbot changes topic to "Quality Linux Technical Support \| Phone: 4-1337-68586 / (413)-376-8586 \| channel rules: http://slackhappy.org/channel-rules \| contact: http://slackhappy.org/contact \| slackware mirror: http://mirror.slackhappy.org \| Community Wiki: http://community.slackhappy.org \| Channel is publicly logged"
+2011-01-26T14:58:06  *** Zangbot changes topic to "Quality Linux Technical Support | Phone: 4-1337-68586 / (413)-376-8586 | channel rules: http://slackhappy.org/channel-rules | contact: http://slackhappy.org/contact | slackware mirror: http://mirror.slackhappy.org | Community Wiki: http://community.slackhappy.org | Channel is publicly logged"
+2011-01-26T14:58:24  *** Zangbot changes topic to "Quality Linux Technical Support | Phone: 4-1337-68586 / (413)-376-8586 | channel rules: http://slackhappy.org/channel-rules | contact: http://slackhappy.org/contact | slackware mirror: http://mirror.slackhappy.org | Community Wiki: http://community.slackhappy.org | Channel is publicly logged"
+2011-01-26T15:14:11  *** mathezula has quit IRC
+2011-01-26T15:39:22  *** mathezula has joined #slackhappy
+2011-01-26T15:39:22  *** ChanServ sets mode: +v mathezula
+2011-01-26T15:59:38  *** tomaw has quit IRC
+2011-01-26T16:02:39  *** tomaw_ has joined #slackhappy
+2011-01-26T16:02:39  *** ChanServ sets mode: +v tomaw_
+2011-01-26T16:06:02  *** tomaw_ is now known as tomaw
+2011-01-26T16:18:54  <mathezula> @google slackhappy
+2011-01-26T16:18:55  <Zangbot> mathezula: Slackhappy International | bringing you the best support ...: <http://slackhappy.drupalcafe.com/>; James Spader is Slack Happy | Movies | EW.com: <http://www.ew.com/ew/article/0,,304397,00.html>; Primordial Slack: Happy Father's Day, Billy Ray Cyrus!: <http://primordialslack.blogspot.com/2008/06/happy-fathers-day-billy-ray-cyrus.html>; Script to make tick-tick sound on keypress - Chronicle (2 more messages)
+2011-01-26T16:20:14  <mathezula> translate english to french "a good bot is a compliant bot"
+2011-01-26T16:20:22  <mathezula> @translate english to french "a good bot is a compliant bot"
+2011-01-26T16:20:23  <Zangbot> mathezula: un bon bot est un bot conforme
+2011-01-26T16:20:36  <mathezula> @translate english to latin "a good bot is a compliant bot"
+2011-01-26T16:20:37  <Zangbot> mathezula: Error: 'latin' is not a valid to language.  Valid languages are: Chinese_simplified, Swedish, Romanian, Hindi, Dutch, Korean, Danish, Bulgarian, Chinese_traditional, French, Norwegian, Russian, Croatian, Finnish, Greek, English, Italian, Portuguese, Czech, Japanese, German, Spanish, Polish, and Arabic
+2011-01-26T16:20:53  <mathezula> @translate english to Japanese "a good bot is a compliant bot"
+2011-01-26T16:20:54  <Zangbot> mathezula: 良いに準拠して、ボット、ボット
+2011-01-26T16:21:14  <mathezula> @translate english to Japanese "i think im turning japanese i think im turning japanese...i really think soooo"
+2011-01-26T16:21:15  <Zangbot> mathezula: 私はイムは、私はイム転換日本語...私は本当にサイコーだと思うと思う日本語を回すと思う
+2011-01-26T16:22:05  <Zangbot> /me paws anc
+2011-01-26T16:22:25  * Zangbot paw anc
+2011-01-26T16:22:34  * Zangbot paws anc
+2011-01-26T16:27:28  <mathezula> @dict paw
+2011-01-26T16:27:29  <Zangbot> mathezula: wn, foldoc, gcide, and moby-thes responded: foldoc: PAW <tool> {Physics Analysis Workbench}; foldoc: PAW++ An extended version of PAW with a Motif human interface; gcide: Paw \Paw\, v. i. To draw the forefoot along the ground; to beat or scrape with the forefoot. --Job xxxix. 21. [1913 Webster]; wn: paw n 1: a clawed foot of an animal especially a quadruped 2: the (prehensile) (4 more messages)
+2011-01-26T16:27:39  <mathezula> @more
+2011-01-26T16:27:39  <Zangbot> mathezula: extremity of the superior limb; "he had the hands of a surgeon"; "he extended his mitt" [syn: {hand}, {manus}, {mitt}] v 1: scrape with the paws; "The bear pawed the door" 2: touch clumsily; "The man tried to paw her"; gcide: Paw \Paw\, v. t. [imp. & p. p. {Pawed}; p. pr. & vb. n. {Pawing}.] 1. To pass the paw over; to stroke or handle with the paws; hence, to handle fondly or rudely. [1913 (3 more messages)
+2011-01-26T16:31:53  <mathezula> sdfsdf
+2011-01-26T17:07:24  *** mathezula has quit IRC
+2011-01-26T18:33:58  *** mathezula has joined #slackhappy
+2011-01-26T18:33:58  *** ChanServ sets mode: +v mathezula
+2011-01-26T18:33:58  *** Zangbot sets mode: +o mathezula
+2011-01-26T18:45:14  *** Zangbot sets mode: -o mathezula
