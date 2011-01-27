@@ -23,7 +23,8 @@ function txt2html($txt) {
   while( !( strpos($txt,'  ') === FALSE ) ) $txt = str_replace('  ',' ',$txt);
   $txt = str_replace(' >','>',$txt);
   $txt = str_replace('< ','<',$txt);
-  $txt = str_replace(array("<",">","&gt;","&lt;"),"",$txt);
+#this is stripping out "<" and ">" instead of replacing with "&gt;" and "&lt;" respectively.
+#  $txt = str_replace(array("<",">","&gt;","&lt;"),"",$txt);
   //Transforms accents in html entities.
 #$txt = utf8_decode($txt);
 # but this script should detect the encoding of the text file before doing anything to decode it.
