@@ -17,8 +17,7 @@ $log_name="#slackhappy.20110126.log.txt";
 #the log's path is the combination of these two vars.
 $log_path=$log_dir.'/'.$log_name;
 
-#need a handle for the logfile.
-$log_handle=fopen($log_path,"r");
+
 
 # import the contents of the logfile into $print_contents
 # should this be an array? would that be easier?
