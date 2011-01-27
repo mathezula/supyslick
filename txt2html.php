@@ -1,7 +1,9 @@
 <?php
 
+# i'm not sure what this function has over str_replace(strtolower($search),strtolower($replace), subject)
+# this could be reinventing the wheel?
 function stri_replace( $find, $replace, $string ) {
-// Case-insensitive str_replace()
+  // Case-insensitive str_replace()
 
   $parts = explode( strtolower($find), strtolower($string) );
 
@@ -23,21 +25,16 @@ function txt2html($txt) {
   while( !( strpos($txt,'  ') === FALSE ) ) $txt = str_replace('  ',' ',$txt);
   $txt = str_replace(' >','>',$txt);
   $txt = str_replace('< ','<',$txt);
-#this is stripping out "<" and ">" instead of replacing with "&gt;" and "&lt;" respectively.
-#  $txt = str_replace(array("<",">","&gt;","&lt;"),"",$txt);
+
   //Transforms accents in html entities.
-#$txt = utf8_decode($txt);
-# but this script should detect the encoding of the text file before doing anything to decode it.
+
+  # should detect the encoding of the text file before doing anything to decode it.
+  # not a priority.
+  # $txt = utf8_decode($txt);
 
   $txt = htmlentities($txt);
 
-  //We need some HTML entities back!
-#  $txt = str_replace('"','&quot;',$txt);
-#  $txt = str_replace('<','&lt;',$txt);
-#  $txt = str_replace('>','&gt;',$txt);
-#  $txt = str_replace('&','&amp;',$txt);
-
-  //Ajdusts links - anything starting with HTTP opens in a new window
+  // Ajdusts links - anything starting with HTTP opens in a new window
   $txt = stri_replace("<a href=\"http://","<a target=\"_blank\" href=\"http://",$txt);
   $txt = stri_replace("<a href=http://","<a target=\"_blank\" href=http://",$txt);
 
@@ -50,14 +47,15 @@ function txt2html($txt) {
 
   //Wipes <br> after block tags (for when the user includes some html in the text).
   $wipebr = Array("table","tr","td","blockquote","ul","ol","li");
-
   for($x = 0; $x < count($wipebr); $x++) {
-
     $tag = $wipebr[$x];
     $html = stri_replace("<$tag><br />","<$tag>",$html);
     $html = stri_replace("</$tag><br />","</$tag>",$html);
-
   }
 
   return $html;
+}
+
+function insert_html_for_css {
+
 }
