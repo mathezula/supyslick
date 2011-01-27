@@ -35,10 +35,10 @@ for($index=0; $index < $indexCount; $index++) {
 		<a href="<?php echo urlencode($directory_path .'/'. $dirArray[$index]); ?>"><?php echo $dirArray[$index]; ?></a>
 	</td>
 	<td>
-		<?php echo filetype($dirArray[$index]); ?>
+		<?php #echo filetype($dirArray[$index]); ?>#
 	</td>
 	<td>
-		<?php echo filesize($dirArray[$index]); ?>
+		<?php #echo filesize($dirArray[$index]); ?>#
 	</td>
 </tr>
 <?php
