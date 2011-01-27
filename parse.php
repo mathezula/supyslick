@@ -38,7 +38,7 @@ class LogParser
 			
 			// unknown
 			else {
-				throw new Exception('Unrecognized line in the log on line ' . $c . '.');
+				#throw new Exception('Unrecognized line in the log on line ' . $c . '.');
 			}
 		}
 		$renderer->end();
@@ -125,8 +125,4 @@ class HtmlLogRenderer implements ILogRenderer
 	}
 }
 
-// usage (best to put this in a separate file)
-
-$parser = new LogParser('chanlogs/#slackhappy.20110126.log.txt', new HtmlLogRenderer());
-$parser->parse();
 ?>
